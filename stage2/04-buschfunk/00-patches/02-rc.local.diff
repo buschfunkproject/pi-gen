@@ -1,0 +1,15 @@
+--- a/rootfs/etc/rc.local	2013-10-16 20:59:07.000000000 +0200
++++ b/rootfs/etc/rc.local	2018-10-25 11:24:53.414058545 +0200
+@@ -11,6 +11,12 @@
+ #
+ # By default this script does nothing.
+ 
++sleep 10
++
++/bin/heckenschere.py
++/bin/mesh.sh > /dev/null
++/etc/load-nat.sh
++
+ # Print the IP address
+ _IP=$(hostname -I) || true
+ if [ "$_IP" ]; then

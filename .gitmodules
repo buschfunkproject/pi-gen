@@ -1,0 +1,3 @@
+[submodule "stage2/04-buschfunk/files/heckenschere"]
+	path = stage2/04-buschfunk/files/heckenschere
+	url = https://github.com/buschfunkproject/heckenschere

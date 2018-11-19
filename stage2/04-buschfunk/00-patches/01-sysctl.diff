@@ -1,0 +1,11 @@
+--- a/rootfs/etc/sysctl.conf	2018-08-01 16:10:26.035962065 +0200
++++ b/rootfs/etc/sysctl.conf	2018-10-25 11:17:24.500968626 +0200
+@@ -25,7 +25,7 @@
+ #net.ipv4.tcp_syncookies=1
+ 
+ # Uncomment the next line to enable packet forwarding for IPv4
+-#net.ipv4.ip_forward=1
++net.ipv4.ip_forward=1
+ 
+ # Uncomment the next line to enable packet forwarding for IPv6
+ #  Enabling this option disables Stateless Address Autoconfiguration

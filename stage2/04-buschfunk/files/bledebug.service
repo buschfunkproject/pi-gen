@@ -1,0 +1,14 @@
+[Unit]
+Description=Starts BLE rf debug
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=10
+ExecStart=/home/pi/bledebug/run_ble.sh
+ExecStop=/usr/bin/pkill -u root -f "node bledebug.js"
+WorkingDirectory=/home/pi/bledebug
+User=root
+
+[Install]
+WantedBy=multi-user.target

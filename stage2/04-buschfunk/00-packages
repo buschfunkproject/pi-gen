@@ -1,0 +1,4 @@
+vim tmux mosh git jq nmap tcpdump rfkill
+i2c-tools wiringpi pigpio
+dnsmasq hostapd
+python-serial python3-pigpio python-gpiozero python3-gpiozero python3-rpi.gpio python-spidev python3-spidev
